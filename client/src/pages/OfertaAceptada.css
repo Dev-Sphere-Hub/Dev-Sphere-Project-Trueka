@@ -1,0 +1,64 @@
+.titulo-h3{
+    font-size: 20px !important;
+    text-align: center;
+    margin: 10px;
+}
+
+.contactar-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.recomendaciones{
+    font-size: 15px;
+    margin: 20px;
+}
+
+.controlar-parrafo{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+.parrafo-recomendaciones{
+    width: 90vw;
+    padding: 15px;
+    border: 1px solid  #FF4679;
+    border-radius: 8px;
+}
+
+.ofertar{
+    border-radius: 28px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(201, 40, 126);
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.ofertar2{
+    border-radius: 28px;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+    color: #FF4679;
+    text-decoration: none;
+    outline: none;
+    border:  #FF4679 1px solid;
+    margin-bottom: 40px ;
+    
+}
+
+.botones{
+    display: flex;
+    
+    justify-content: center;
+}

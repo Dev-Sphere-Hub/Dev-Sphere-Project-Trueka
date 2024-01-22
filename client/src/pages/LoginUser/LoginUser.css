@@ -1,0 +1,15 @@
+.login {
+    display: flex;
+
+}
+
+.form-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.controlar-form {
+    width: 100vw;
+    display: flex;
+
+}

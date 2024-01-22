@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+}
+
+.imagen-producto{
+    width: 250px;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-imagen{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.nombre-usuario{
+    margin-left: 20px;
+}
+
+.estrellas{
+    margin-left: 20px;
+    
+}
+
+.controlar-mapa{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.mapa{
+    width: 95vw;
+    
+}
+
+.descripcion{
+    margin: 0px 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ubicacion{
+    margin: 20px 20px;
+    text-align: center;
+
+}
+
+.ofertar{
+    border-radius: 28px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(201, 40, 126);
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin: 40px 0px;
+    
+}
+
+.boton{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+
+.titulo-detalle{
+    text-align: center;
+    margin: 20px 10px 10px 10px;
+    
+}
+
+.carrusel{
+    width: 95vw;
+    display: flex;
+}
+
+.control-carrusel{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (min-width: 768px) {
+    .mapa{
+        width: 40vw;
+        
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .imagen-descripcion{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .descripcion{
+        width: 50vw;
+        text-align: center;
+    }
+
+    .usuario-descripcion{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .titulo-detalle{
+        display: flex;
+        margin-right: 220px;        
+        justify-content: flex-end;
+    }
+
+}
+
+@media (min-width: 1300px) {
+    .titulo-detalle{
+        margin-right: 350px;        
+    }
+    
+}
+
+
+.comment-container {
+    margin-bottom: 10px; 
+    padding: 8px; 
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+  
+.comment-text {
+    font-size: 16px; 
+    color: #333;
+}
+
+.comment-contenedor{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-Send{
+    border-radius: 28px;
+    padding: 10px;
+    width: 30%;
+    background-color: rgb(201, 40, 126);
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin: 0px 0px 20px 20px;
+}
+
+.message-input {
+    padding: 8px;
+    border: 1px solid rgb(201, 40, 126);
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    width: 50%;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+  }
+  

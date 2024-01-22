@@ -1,0 +1,15 @@
+/* style={{ height: '180px', width: '90vw', margin: '2rem auto' }} */
+.mapa{
+    height: 180px;
+    width: 90vw;
+    margin: 2rem auto;
+}
+
+
+@media (min-width: 768px) {
+    .mapa{
+        width: 50vw;
+        height: 250px;
+        
+    }
+}

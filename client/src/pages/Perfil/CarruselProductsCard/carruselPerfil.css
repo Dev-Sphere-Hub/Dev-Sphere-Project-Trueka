@@ -1,0 +1,42 @@
+.swipperSlider {
+  display: flex !important;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  padding-top: 30px;
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  position: absolute;
+  top: 55% !important;
+  transform: translateY(-50%);
+  width: 30px !important;
+  height: 30px !important;
+  border: solid 2px var(--background-naClaro);
+  background-color: #fff;
+  font-size: 1rem;
+  color: var(--background-naClaro);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next::after {
+  display: none;
+}
+
+.mySwipper .swiper-pagination-bullet {
+  background-color: var(--background-naClaro);
+  /* Cambia el color de fondo de los puntos de paginación */
+}
+
+.mySwipper .swiper-pagination-bullet-active {
+  background-color: var(--background-naClaro);
+  /* Cambia el color de fondo del punto activo de paginación */
+}

@@ -1,0 +1,65 @@
+.principalPerfil {
+    min-width: 350px;
+    height: auto;
+}
+
+.card {
+    width: 100%;
+    height: auto;
+    border: none;
+}
+
+.borde-estrellas {
+    border: 1px solid transparent;
+    padding: 10px;
+    border-radius: 8px;
+    width: 350px;
+    max-width: 650px;
+    background-color: rgba(255, 245, 248, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 150px;
+}
+
+.foto-usuario{
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-around;
+}
+
+.parrafo-usuario{
+    margin: 0px;
+}
+
+.circulo{
+    border: 1px transparent solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    color: transparent;
+
+}
+
+.imagen-usuario{
+    border: 1px  transparent solid;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    color: transparent;
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {
+    .card {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

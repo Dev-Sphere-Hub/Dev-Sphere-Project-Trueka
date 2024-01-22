@@ -1,0 +1,119 @@
+.contCalificaciones {
+  width: 100%;
+  height: auto;
+
+  gap: 1rem;
+
+  & .titluloCalificacion {
+    width: 95%;
+    text-align: left;
+    color: var(--textosColor);
+    font-family: var(--titulo);
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    padding: 0;
+  }
+
+  & .navCalificacionUser {
+    width: 100%;
+    height: 50px;
+    background-color: var(--yellowContenedor);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-items: center;
+    gap: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    & .containButton {
+      width: 33%;
+      height: 100%;
+      background-color: var(--yellowContenedor);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      box-sizing: border-box;
+
+      & .buttonCalificaciones {
+        background-color: var(--yellowContenedor);
+        width: 100%;
+        height: calc(100% - 2px);
+        text-align: center;
+        font-family: var(--titulo);
+        font-size: 14px;
+        font-weight: 500;
+
+      }
+    }
+  }
+
+  & .ContRenderCalificaciones {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+
+    & .cardCalificaciones {
+      width: 95%;
+      padding: 10px;
+      border-bottom: 2px solid var(--background-naClaro);
+      display: flex;
+      flex-direction: column;
+      gap: 5px;
+      box-sizing: border-box;
+      overflow: hidden;
+
+      & .cardCalificacionesh2 {
+        width: 100%;
+        color: var(--textosColor);
+        text-align: left;
+        font-family: var(--titulo);
+        font-size: 16px;
+        font-weight: 300;
+      }
+
+      & .contFooterCardCalificaciones {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        box-sizing: border-box;
+
+        & .cardNameUser {
+          color: var(--textosColor);
+          font-family: var(--titulo);
+          font-size: 14px;
+          font-weight: 500;
+        }
+
+        & .cardFecha {
+          color: var(--textosColor);
+          text-align: left;
+          font-family: var(--titulo);
+          font-size: 16px;
+          font-weight: 300
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

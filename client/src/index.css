@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@300;400;500;600;700&display=swap');
+
+:root {
+
+  /* pruebas */
+  --colorRedes-telegram: #51aff8;
+  --colorRedes-facebook: #3d7be7;
+  --colorRedes-linkedin: #0076b8;
+  --colorRedes-instagram: #d6249f;
+  --colorRedes-youtube: #ce1312;
+  --colorRedes-whatsapp: #25D366;
+  --colorRedes-twitch: #6441a5;
+  --colorRedes-github: #363636;
+  --colorRedes-cafe: #5e7cce;
+  --colorRedes-gmail: #F14336;
+
+  --colorRedes-hover-telegram: #0574c9;
+  --colorRedes-hover-facebook: #0041b1;
+  --colorRedes-hover-linkedin: #00456d;
+  --colorRedes-hover-instagram: #ad0277;
+  --colorRedes-hover-youtube: #940000;
+  --colorRedes-hover-whatsapp: #009b39;
+  --colorRedes-hover-twitch: #3c07a0;
+  --colorRedes-hover-github: rgb(78, 39, 138);
+  --colorRedes-hover-cafe: #1944bb;
+  --colorRedes-hover-gmail: #bd160a;
+
+  --colors-buton-heart: rgb(247, 63, 63);
+  --colors-buton-cart: rgb(241, 241, 67);
+  --colors-buton-wallet: rgb(50, 148, 50);
+
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+
+  --tituloGeneral: 'Roboto', sans-serif;
+  --parrafoGeneral: 'Nunito', sans-serif;
+
+  --color1a: #3E4098;
+  --color1b: #3e4ea8;
+
+  --color2: #FFFFFF;
+  --color3: #69F085;
+  --color4: #E1D956;
+  --color5: #9ABBEB;
+
+  --color6: #333;
+  --color7: #ff6347;
+  --color8: #f73f3f;
+
+  --bordeCard: #342e56;
+  --transitionGen: .7s;
+
+
+  /* colores */
+  --titulo: Roboto, sans-serif;
+  --parrafo: Work Sans, sans-serif;
+  --background-nav: #de1252;
+  --background-naClaro: #c9287e;
+  --textNav: #ffff;
+  --botonCheck: #6750a4;
+  --textosColor: #000000;
+  --textosColor2: #b3b3b3;
+  --textColor3: #736868;
+  --yellowContenedor: #fff5f8;
+  --pinkCard: #f2f2f2;
+  --lineas: rgba(222, 18, 82, 0.23);
+  
+}
+
+.probando{
+  box-sizing: border-box;
+  overflow-x: hidden;
+}

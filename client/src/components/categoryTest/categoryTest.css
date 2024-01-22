@@ -1,0 +1,54 @@
+.formSelect {
+  border: none;
+  border-radius: 0 !important;
+  overflow: hidden;
+  color: white;
+}
+
+.formSelect option {
+  /* Estilos personalizados para las opciones */
+  font-weight: bold;
+}
+
+.iconoCategory {
+  position: absolute;
+  width: 20px;
+  height: 40px;
+  display: flex;
+  font-size: 18px;
+  color: aliceblue;
+  background: var(--background-naClaro);
+  top: 0;
+  right: 0;
+  padding: 0;
+  margin: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.formSelect option:hover {
+  /* Estilos para la opción en estado de hover */
+  background-color: #ccc;
+  color: #fff;
+}
+
+.formSelect option:selected {
+  /* Estilos para la opción seleccionada */
+  background-color: #007bff;
+  color: #fff !important;
+}
+
+
+
+.form-select{
+  color: white !important;
+  padding-right: 0px !important;
+  
+}
+
+#categorySelect{
+  color: white !important;
+}

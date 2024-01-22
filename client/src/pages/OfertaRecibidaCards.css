@@ -1,0 +1,23 @@
+.cards{
+    width: 150px !important;
+    height: 200px !important;
+    margin: 10px;
+   
+}
+
+.imagen-cards-recibida{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+}
+
+.prod-titulo{
+    font-size: 15px !important;
+}
+
+.contactar-whatsapp{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    align-items: center;
+}

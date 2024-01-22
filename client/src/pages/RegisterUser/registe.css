@@ -1,0 +1,115 @@
+/* ps no borren */
+.formRegister {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-content {
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.inputGen {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 2px solid #FF4679;
+  border-radius: 15px;
+  width: 100%;
+}
+
+.pass-positioning {
+  position: relative;
+  width: 396px;
+}
+
+#eye-img {
+  position: absolute;
+  top: 11px;
+  right: 10px;
+}
+
+.forgot-pass {
+  text-align: end;
+  margin-bottom: 30px;
+}
+
+.forgot-pass a {
+  color: #FF4679;
+}
+
+.button {
+  background-color: #FF4679;
+  border: none;
+  border-radius: 110px;
+  color: #FFFFFF;
+  margin-top: 10px;
+  width: 211px;
+  height: 50px;
+}
+
+.logo-img {
+  width: 310.75px;
+}
+
+.slogan {
+  color: #DE1252;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.new-account {
+  margin-top: 40px;
+}
+
+.new-account a {
+  text-decoration: none;
+  color: #FF4679;
+}
+
+#hr {
+  color: #FF4679;
+  border-top: 2px solid;
+}
+
+.login-alternatives {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 1rem;
+}
+
+.login-alternatives p {
+  padding: 0;
+  margin: 0;
+  color: #DE1252;
+  font-size: 16px;
+  font-family: var(--titulo);
+  font-weight: 600;
+}
+
+.loginExternos {
+  width: 40px;
+  height: 40px;
+  font-size: 1.8rem;
+  display: grid;
+  place-content: center;
+  border-radius: 50%;
+  transition: all .2s ease-in;
+  border: solid 1px #DE1252;
+  cursor: pointer;
+}
+
+.loginExternos:hover {
+  transform: scale(1.1);
+  color: #DE1252;
+  font-size: 2rem;
+  border-radius: 10px;
+}

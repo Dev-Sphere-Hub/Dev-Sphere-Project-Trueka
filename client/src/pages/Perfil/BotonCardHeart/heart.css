@@ -1,0 +1,108 @@
+/* Estilos */
+.botoneraCard {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 35px;
+  height: 35px;
+  transition: opacity 0.8s ease;
+}
+
+.customContent {
+  /* Estilos existentes */
+  transition: opacity 0.8s ease;
+}
+
+.botoneraCard.invisible {
+  opacity: 0;
+}
+
+.botoneraCard.visible {
+  opacity: 1;
+}
+
+.botoneraCard {
+  opacity: 1;
+  transition: opacity 0.8s ease;
+}
+
+/* .botoneraCard.show {
+  opacity: 1;
+} */
+
+.botoneraCard div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 5px;
+}
+
+.botoneraCard div a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  font-size: 1.5rem;
+  border: solid 2px transparent;
+  border-radius: 50%;
+  transition: 0.5s ease-in-out;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+.botoneraCard div a ion-icon {
+  color: #333;
+  transition: 0.5s;
+}
+
+.botoneraCard div a:hover ion-icon {
+  color: red;
+}
+
+.botoneraCard div .like {
+  animation: beat 0.7s infinite alternate;
+  transform-origin: center;
+  color: red;
+}
+
+.botoneraCard div .activo {
+  background: #fff;
+  color: red;
+  animation: none;
+  transition: all .5s ease-in;
+}
+
+.botoneraCard div a.sinStock {
+  position: relative;
+  border: solid 1px red;
+  transition: 1s ease-in border;
+  overflow: hidden;
+  cursor: text;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.botoneraCard div a.sinStock::after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: 110%;
+  background: red;
+  transform: rotate(-25deg);
+  translate: 14px;
+}
+
+@keyframes beat {
+  to {
+    transform: scale(1.2);
+  }
+}

@@ -1,0 +1,137 @@
+.controlar-card-recibida{
+    width: 150px;
+    display: flex;
+}
+
+.ubicar{
+    
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+    justify-content: space-around;
+    
+   
+    
+   
+}
+
+.contactar-whatsapp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+
+.ubicar-card{
+    width: 150px;
+}
+
+.cards-recibida{
+    display: flex;
+    width: 150px !important;
+    height: 200px !important;
+    margin: 10px;
+   
+}
+
+.controlar-cards-recibida{
+    display: flex;
+    justify-content: center;
+}
+
+.cards-recibida{
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    
+}
+
+.prod-titulo{
+    font-size: 15px !important;
+}
+
+.titulo-h3{
+    font-size: 20px !important;
+    text-align: center;
+    margin: 10px;
+}
+
+.hr{
+    color: #FF4679;
+    border: 2px solid;
+    width: 100vw;
+    margin: 30px 0px;
+
+
+}
+
+.ofertar{
+    border-radius: 28px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(201, 40, 126);
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin: 0px 0px 20px 0px;
+    
+}
+
+.ofertar2{
+    border-radius: 28px;
+    padding: 10px;
+    width: 250px;
+    background-color: white;
+    color: #FF4679;
+    text-decoration: none;
+    outline: none;
+    border:  #FF4679 1px solid;
+    margin-bottom: 40px ;
+    
+}
+
+.botones{
+    display: flex;
+    
+    justify-content: center;
+}
+
+.custom-button {
+    text-align: center;
+    background-color:white !important;   
+    height: 30px !important;
+    width: 70px !important;
+    font-size: 15px !important;
+    padding: 0;
+    color: #FF4679 !important;
+    border: 0px transparent !important;
+  }
+
+  .custom-button2{
+    background-color: transparent !important;
+    color: black !important;
+  }
+
+@media (min-width: 768px) {
+
+    .cards-container{
+        margin: 0px 30px;
+        border: 1px rgba(0, 0, 0, 0.233) solid;
+        padding: 5px;
+    }
+
+    .ubicar{    
+        display: flex;
+        flex-wrap: wrap;
+        margin: 10px;
+        justify-content: center;       
+    } 
+
+    .margin{
+        margin: 0px 40px;
+    }
+
+}

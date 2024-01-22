@@ -1,0 +1,264 @@
+.main-login{
+    display: flex;
+    flex-direction: column;
+    align-items: center !important;
+    width: 100vw;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center !important;
+    margin-bottom: 50px;
+    display: contents !important;
+    width: 100vw;
+}
+
+
+.form-content {
+    display: flex;
+    width: 80vw;
+    align-items: center !important;
+    margin-bottom: 50px;
+
+    
+}
+
+.iniciar-sesion{
+    text-align: start;
+    font-size: 16px;
+    
+    width: 90vw;
+}
+
+.input-email{
+    width: 80vw;
+    border: #DE1252 solid 1px;
+    border-radius: 8px;
+    height: 56px;
+    margin-bottom: 20px;
+
+}
+
+.contraseña{
+    width: 80vw;
+    border: #DE1252 solid 1px;
+    border-radius: 8px;
+    height: 56px;
+
+}
+
+.olvide{
+    display: flex;
+    justify-content: center;
+    margin-right: 40px;
+    color: #DE1252;
+    
+}
+
+.login{
+    display: flex;
+    flex-direction: column;
+}
+
+.inputGen {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 2px solid #FF4679;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.pass-positioning {
+    position: relative;
+    width: 396px;
+}
+
+#eye-img {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+
+
+.forgot-pass{
+    display: flex;
+    width: 100vw;
+    justify-content: flex-end;
+    margin: 20px;
+    
+}
+
+
+
+.no-cuenta{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.hr{
+    color: #FF4679;
+    border: 2px solid;
+    width: 100vw;
+    margin: 30px;
+
+
+}
+
+.ingresar-con{
+    margin-top: 70px;
+    font-weight: bold;
+}
+
+.google-facebook{
+    display: flex;
+    width: 100vw;
+    justify-content: space-evenly;
+    margin-bottom: 0px !important;
+    
+   
+
+}
+
+
+.button {
+    background-color: #FF4679;
+    border: none;
+    border-radius: 110px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    width: 211px;
+    height: 50px;
+}
+
+.logo-img {
+    width: 310.75px;
+    margin-top: 20px;
+}
+
+.slogan {
+    color: #DE1252;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.new-account {
+    margin-top: 40px;
+}
+
+.new-account a {
+    text-decoration: none;
+    color: #FF4679;
+}
+
+
+
+.login-alternatives {
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    
+    
+    flex-direction: column;
+    margin-bottom: 30px !important;
+}
+
+@media (min-width: 768px) {
+
+    .iniciar-sesion{
+        
+        margin-left: 80px;
+    }
+
+    .olvide{
+        margin-right: 80px;
+    }
+
+
+}
+
+@media (min-width: 1024px) {
+    .formulario{
+        width: 100vw;
+        display: flex !important;
+    }
+    .form-content{
+        width: 50vw ;
+    }
+
+    .input-email{
+        width: 40vw;
+    }
+
+    .contraseña{
+        width: 40vw;
+    }
+
+    .iniciar-sesion{
+        width: 55vw !important;
+        display: flex;
+        margin-left: 0;
+        
+        
+    }
+
+    .olvide{
+        margin-right: 320px;
+    }
+
+    .google-facebook{
+        width: 50vw;
+    }
+
+}
+
+
+@media (min-width: 1300px) {
+
+    .iniciar-sesion{
+        
+        margin-left: 200px !important;
+    }
+
+    .olvide{
+        margin-right: 395px;
+    }
+
+}
+
+
+
+/*.login-alternatives p {
+    padding: 0;
+    margin: 0;
+    color: #DE1252;
+    font-size: 16px;
+    font-family: var(--titulo);
+    font-weight: 600;
+}
+
+.loginExternos {
+    width: 40px;
+    height: 40px;
+    font-size: 1.8rem;
+    display: grid;
+    place-content: center;
+    border-radius: 50%;
+    transition: all .2s ease-in;
+    border: solid 1px #DE1252;
+    cursor: pointer;
+}
+
+.loginExternos:hover {
+    transform: scale(1.1);
+    color: #DE1252;
+    font-size: 2rem;
+    border-radius: 10px;
+}*/

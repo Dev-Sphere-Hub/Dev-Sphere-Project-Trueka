@@ -1,0 +1,137 @@
+.botonSubmenu {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 19px;
+  background: var(--background-navClaro);
+  color: white;
+  border: solid 1px white;
+  transition: all .3s ease-in;
+}
+
+.botonSubmenu:hover {
+  background: white;
+  color: var(--background-naClaro);
+  border: solid 1px wheat;
+}
+
+.submenu {
+  width: 220px;
+  height: 280px;
+  background: var(--textNav);
+  overflow: hidden;
+  position: absolute;
+  top: 85px;
+  right: -220px;
+  border: solid 2px var(--background-navClaro);
+  z-index: 100 !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  border: solid 1px #333;
+  border-radius: 8px 0 0 8px;
+  transition: all .5s ease-in-out;
+  z-index: 10000;
+}
+
+.submenu.active {
+  right: 0px;
+  z-index: 1000 !important;
+}
+
+
+.submenuHead,
+.submenufoother {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.botonSubmenu2 {
+  width: 100%;
+  height: 30px;
+  background: var(--textNav);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  color: #333;
+  transition: all .3s ease-in;
+}
+
+.botonSubmenu3 {
+  width: 100%;
+  height: 30px;
+  background: var(--textNav);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #c9287e;
+  transition: all .3s ease-in;
+}
+
+.botonSubmenu2>ion-icon,
+.botonSubmenu3>ion-icon {
+  font-size: 20px;
+}
+
+.botonSubmenu2:hover {
+  color: #c9287e;
+}
+
+.botonSubmenu3:hover {
+  color: var(--botonCheck);
+}
+
+
+@media (min-width: 576px) {
+  .submenu {
+    width: 220px;
+    top: 85px;
+  }
+}
+
+@media (min-width: 768px) {
+  .submenu {
+    width: 220px;
+    top: 65px;
+  }
+}
+
+@media (min-width: 992px) {
+  .submenu {
+    width: 220px;
+    top: 66px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .submenu {
+    width: 250px;
+    top: 66px;
+    right: -250px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+  .submenu {
+    width: 300px;
+    top: 66px;
+    right: -300px;
+  }
+}

@@ -1,0 +1,8 @@
+#input-bot{
+    border-radius: 8px;
+    border: 2px solid #FF4679;
+    z-index: 100;
+    width: 100%;
+    min-width: 280px;
+    max-width: 600px;
+}

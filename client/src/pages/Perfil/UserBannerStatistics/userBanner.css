@@ -1,0 +1,46 @@
+.valoresRep {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .cajaPAdre {
+    width: 95%;
+  }
+}
+
+@media (min-width: 576px) {
+  .valoresRep {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cajaPAdre {
+      width: 90%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .valoresRep {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .cajaPAdre {
+      width: 100%;
+      height: 130px;
+    }
+  }
+}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

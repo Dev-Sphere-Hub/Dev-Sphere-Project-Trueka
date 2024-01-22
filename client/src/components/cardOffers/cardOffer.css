@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+.container-card{
+    display: inline-block;
+    height: 245px;
+    width: 170px;
+    box-shadow: 2.4546139240264893px 2.4546139240264893px 7.363841533660889px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 2.455px;
+    box-sizing: border-box;
+}
+    
+
+
+.img-container {
+    display: flex;
+    height: 170px;
+    width: 170px;
+    overflow: hidden;
+    align-items: center;
+}
+
+
+.card-img-top {
+    /* aspect-ratio: 2 / 2; */
+    height: 170px;
+    object-fit: contain;
+    padding: 5px;
+}
+
+
+.card-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    height: 75px;
+    width: 170px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.location-container{
+    display: flex;
+    height: 18px;
+    align-items: center;
+    gap: 3px;
+    overflow: hidden;
+    
+}
+
+.text-container{
+    display: flex;
+    height: 18px;
+}
+
+.text-card {
+    color: #000;
+    font-family: Work Sans;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%;
+    margin: 0px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.ubi-text {
+    color: #000;
+    font-family: Work Sans;
+    font-size: 14.728px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: normal;
+    margin: 0;
+}
+
+#mobile-svg{
+    display: none;
+}
+
+#desktop-svg{
+    display: block;
+}
+
+@media (max-width: 795px){
+    .container-card{
+        height: 205px;
+        width: 140px;
+        border-radius: 2px;
+        box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.25);    
+        border-radius: 2.455px;
+        box-sizing: border-box;
+    }
+
+    .img-container {
+        display: flex;
+        height: 140px;
+        width: 140px;
+        overflow: hidden;
+        align-items: center;
+    }
+
+    .card-img-top {
+        /* aspect-ratio: 2 / 2; */
+        height: 140px;
+        padding: 3px;
+    }
+
+    .card-grid {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        gap: 5px;
+        height: 65px;
+        width: 140px;
+        padding: 4px;
+    }
+
+    .text-card {
+        font-size: 16px;
+        height: 36px;
+    }
+
+    .ubi-text {
+        font-size: 12px;
+    }
+
+    .location-container {
+        align-items: center;
+        height: 16px;
+    }
+
+    .location-container .desktop-svg{
+        display: none;
+    }
+
+    .location-container .mobile-svg{
+        display: block;
+    }
+
+    #mobile-svg{
+        display: flex;
+        height: 16px;
+    }
+
+    #desktop-svg{
+        display: none;
+    }
+}

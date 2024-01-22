@@ -1,0 +1,64 @@
+.acomodar{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 40px;
+    padding-top: 0;
+}
+
+.offer-card-container{
+    position: relative;
+}
+
+.div-card{
+    position: relative;
+}
+
+.checkbox-card{
+    position: absolute;
+    top: 1%;
+    right: 5%;
+}
+
+#productCard:checked + #offer-card-container{
+    box-shadow: 2.4546139240264893px 2.4546139240264893px 7.363841533660889px 0px rgba(86, 152, 244, 0.25);
+}
+
+.controlar-acomodar{
+    width: 100vw;
+    
+}
+
+.ofertar{
+    border-radius: 28px;
+    padding: 10px;
+    width: 250px;
+    background-color: rgb(201, 40, 126);
+    color: white;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    margin: 40px 0px;
+    
+}
+
+.articulo-ofrecer{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+
+}
+
+.ver-todos{
+    display: flex;
+    margin: 20px;
+    justify-content: flex-end;
+}
+
+.publica{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
